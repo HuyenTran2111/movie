@@ -4,6 +4,7 @@ import Ghe from './ghe';
 export default class HangGhe extends Component {
 
     renderGhe = () => {
+        console.log('bbbbbbbbbbbbbbbbbbbb')
         const { danhSach } = this.props;
         if (danhSach.hang === "") {
             return danhSach.danhSachGhe.map((ghe) => {

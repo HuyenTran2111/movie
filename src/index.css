@@ -14,8 +14,6 @@ code {
 }
 
 .wrap{
-  
-  height: 780px;
   position: relative;
   background-color: black;
   
@@ -53,19 +51,6 @@ code {
   margin: 15px 0;
   color: white;
 }
-.body{
-  display: flex;
-  /* align-items: center;
-  justify-content: center; */
-}
-.left{
-  width: 65%;
-  
-}
-.right{
-  width: 35%;
-}
-
 
 .ghe{
   border: 3px solid orange;
@@ -81,6 +66,12 @@ code {
   background-color: white;
   cursor: pointer;
 }
+/* @media  (min-width: 768px) {
+  .ghe {
+    width: 10px;
+    height: 10px;
+  }
+} */
 /* .rowNumber{
   font-size: 25px;
   width: 45px;
@@ -140,6 +131,7 @@ code {
 .tab{
   margin: 5px 120px;
 }
+
 .hangGhe{
   font-size: 24px;
   font-weight: 600;
@@ -176,17 +168,20 @@ code {
 .green::before{
   content: "";
   background: green;
+  border-radius: 3px;
  
 }
 .orange::before{
   content: "";
   background: orange;
+  border-radius: 3px;
  
 }
 .white::before{
   content: "";
   background: white;
   border: 3px solid orange;
+  border-radius: 3px;
   
 }
 

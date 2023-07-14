@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 
     renderDanhSachGhe = () => {
         let { danhSachGhe, } = this.props;
+        console.log('aaaaaaaaaaaaaaaaaaaa')
         return danhSachGhe?.map((hangGhe) => {
             return <HangGhe key={hangGhe.hang}  hangGhe ={hangGhe.hang} danhSach={hangGhe}/>
         })
@@ -16,7 +17,6 @@ import { connect } from 'react-redux';
       <div>
         <table className='tab'>
             <tbody>
-                
                 {this.renderDanhSachGhe()}
             </tbody>
         </table>
@@ -28,7 +28,6 @@ import { connect } from 'react-redux';
 const mapStateToProps = (state) => {
     return{
         danhSachGhe: state.userReducer.danhSachGhe,
-        
     }
 }
 

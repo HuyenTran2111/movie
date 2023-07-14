@@ -3,12 +3,12 @@ import DanhSachGhe from './danhSachGhe';
 import DanhSachChonGhe from './danhSachChonGhe';
 
 export default class BookMovieTickets extends Component {
-    
+
     render() {
         return (
             <div className='wrap'>
-                <div className='body'>
-                    <div className='left text-center'>
+                <div className='row'>
+                    <div className=' text-center col-sm-8'>
                         <div className="container">
                             <div className='content'>
                                 <h1 className='title__left'>ĐẶT VÉ XEM PHIM</h1>
@@ -22,7 +22,7 @@ export default class BookMovieTickets extends Component {
                         </div>
                     </div>
 
-                    <div className='right'>
+                    <div className=' col-sm-4'>
                         <div className="container">
                             <div className="content">
                                 <h1 className='title__right'>DANH SÁCH GHẾ BẠN CHỌN</h1>

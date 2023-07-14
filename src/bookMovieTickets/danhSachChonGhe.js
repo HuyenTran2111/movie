@@ -54,6 +54,7 @@ const mapStateToProps = (state) => {
   return {
     danhSachChonGhe: state.userReducer.danhSachChonGhe,
     totalPrice: state.userReducer.totalPrice,
+    
   }
 }
 export default connect(mapStateToProps, null)(DanhSachChonGhe);
